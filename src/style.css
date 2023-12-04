@@ -1,0 +1,12 @@
+#controls {
+	left:50%;
+	bottom: 0;
+	height: 8%;
+	width: 30%;
+	background: grey;
+	position:absolute;
+	transform: translate(-50%, -50%);
+	/* -webkit-transform: translate(-50%, -50%); */
+	/* -moz-transform: translate(-50%, -50%); */
+}
+
