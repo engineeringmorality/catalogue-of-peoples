@@ -4,6 +4,7 @@ import {parse, format} from 'path';
 import Geonames from 'geonames.js';
 
 // TODO: also convert to GeoJson in this script? (reduce rendertime computation)
+// Merge duplictes (combined value)
 // make the script take in a file from stdin?
 
 /** 

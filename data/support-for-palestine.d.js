@@ -1,4 +1,5 @@
 /**
+ * Dataset of different instances of global demonstration of support for the Palestinian cause, since the start of the latest imperial assault of the peoples of Gaza.
  * @typedef {Object} SupportForPalestine
  * @property {String} date - Format: d/m/y
  * @property {String} location - The name of the place (usually a city)
