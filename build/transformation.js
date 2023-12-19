@@ -3,9 +3,10 @@ import {readFileSync, writeFileSync} from 'fs';
 import {parse, format} from 'path';
 import Geonames from 'geonames.js';
 
-// TODO: also convert to GeoJson in this script? (reduce rendertime computation)
+// TODO: Only calculate the geodata for new data (check if data already exists? line count could be an initial strategy)
+// Also convert to GeoJson in this script? (reduce rendertime computation)
 // Merge duplictes (combined value)
-// make the script take in a file from stdin?
+// Make the script take in a file from stdin?
 
 /** 
  * @type {SupportForPalestine} 
