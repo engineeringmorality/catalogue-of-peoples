@@ -62,7 +62,7 @@ function getCsvData(file) {
  * @param {DSVRowArray} csv
  * @param {GeonamesInstance} geonames
  * @return {Promise<[DSVRowArray]>}
- * @todo use a set data structure or memoize/filter duplicate locations
+ * @todo memoize or filter duplicate locations (data/geodata.csv can be used)
  */
 async function addGeoDataToCsv(csv, geonames) {
   const updatedRows = [];
