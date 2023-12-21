@@ -8,8 +8,8 @@ const globe = Globe();
 // label layer
 fetch(data).then(res => res.text()).then(places => {
 	const csvData = csvParse(places, ({lat, lng, location, figure, video}) => ({lat: +lat, lng: +lng, figure: +figure || 1, location: location, video: video}));
-	console.log("csvData", csvData);
-	globe(document.getElementById('globeViz'))
+	console.info("csvData", csvData);
+	globe(document.getElementById('globe'))
 		.pointOfView({lat:10})
 		.globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
 		.backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
