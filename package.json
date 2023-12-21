@@ -2,10 +2,9 @@
   "name": "catalogue-of-peoples",
   "version": "1.0.0",
   "description": "A catalogue of peoples fighting for the Palestinian cause",
-  "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
     "lint": "eslint",
     "lint:fix": "eslint --fix"
   },
