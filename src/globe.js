@@ -20,7 +20,13 @@ fetch(data).then(res => res.text()).then(places => {
 		.labelLng(d => d.lng)
 		.labelDotRadius(d => d.figure * 4e-1)
 		.labelSize(d => d.figure * 4e-1)
-		// TODO: move label to on hover
+		.labelLabel(d => {
+			var ytId = new URL(d.video).searchParams.get("v");
+			var ytUrl = `https://www.youtube-nocookie.com/embed/${ytId}?rel=0&autoplay=1&mute=1`;
+			return `<iframe src=${ytUrl} width="400" height="315" frameborder="0"></iframe>`
+		})
+		.onLabelHover(_ => controls.autoRotate = !controls.autoRotate)
+		// TODO: move label to onHover?
 		.labelText(d => d.location.split(',').pop());
 
 	const controls = globe.controls();
@@ -29,5 +35,5 @@ fetch(data).then(res => res.text()).then(places => {
 	controls.maxDistance = 720;
 	controls.minDistance = 144;
 
-	globe.onGlobeClick((_)=>controls.autoRotate = !controls.autoRotate);
+	// globe.onGlobeClick((_)=>controls.autoRotate = !controls.autoRotate);
 });

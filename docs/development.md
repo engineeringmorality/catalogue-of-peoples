@@ -131,3 +131,8 @@ Data points to consider for visualisation strength:
 ### Chroma (Color Scheme)
 - https://colorbrewer2.org/#
 - https://d3js.org/d3-scale-chromatic
+
+### Future
+- https://observablehq.com/@michael-keith/draggable-globe-in-d3
+- https://observablehq.com/@vasturiano/corona-virus-covid-19-globe
+- https://experiments.withgoogle.com/chrome/globe

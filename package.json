@@ -30,6 +30,7 @@
     "d3-dsv": "^3.0.1",
     "geonames.js": "^3.0.6",
     "globe.gl": "^2.32.1",
+    "lite-youtube-embed": "^0.3.0",
     "npm": "^10.2.0",
     "parcel": "^2.10.0"
   }
