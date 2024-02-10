@@ -1,7 +1,7 @@
 import Globe from 'globe.gl';
 import {csvParse} from 'd3-dsv';
 
-import data from 'url:../data/ready-support-for-palestine.csv';
+import data from 'url:../data/demonstrations.csv';
 
 const globe = Globe();
 

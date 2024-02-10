@@ -1,23 +1,17 @@
-# Catalogue of Peoples
+# Catalogue of Peoples 🇵🇸
 
 Repository for the website, Catalogue of Peoples — an attempt to illustrate the rediscovery of our conscience that's manifesting in the global movement for the Palestinian Cause.
 
 If not now, then never.
 
-[TODO]: # "View the project at: [engineeringmorality.github.io/catalogueofpeoples](https://engineeringmorality.github.io/catalogueofpeoples)"
+View the project at: [engineeringmorality.github.io/catalogueofpeoples](https://engineeringmorality.github.io/catalogueofpeoples)
 
 ## Development
 
 Thank you for your willingness to help.
 
 ### Adding more sources
-This is the quickest way to contribute. Help add new sources that you come across to the public dataset: [`support-for-palestine.csv`](data/support-for-palestine.csv).
-
-[TODO]: # "point to the new dataset repo after creating it instead"
-
-Once you've created a GitHub account (perhaps throwaway), click the edit button in the file, continue to the file and add your new source(s). You'll then be prompted to create a "pull request" upon which your changes will be submitted for review.
-
-Make sure the data (event's date and location) you're adding doesn't already exist in the dataset; further, duplicate work can also be avoided by checking if someone else has already proposed the same changes.
+Help add new sources to the open source dataset at: [support-for-palestine](https://github.com/engineeringmorality/support-for-palestine)
 
 ### Help by coding
 If you're a developer, the technical README can be found [here](docs/development.md).
